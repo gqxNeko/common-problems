@@ -6,11 +6,12 @@
 
 ## 解决办法
 * 在子组件中添加新的变量接收props值
+* watch检测属性变化
 ```javascript
 props:['active'],
 data(){
   return {
-    curActive:this.active
+    curActive: this.active
   }
 }
 ```
